@@ -10,6 +10,15 @@ public class Chapter1 {
         this.number = number;
     }
 
+    public Chapter1(String name) {
+        this.name = name;
+        this.number = 0;
+    }
+
+    public Chapter1() {
+        this.name = "Chapter";
+        this.number = 0;
+    }
     // Exercise 1
     // Copy the Chapter1 constructor to create a new one without a number, have the default number be 0.
 
